@@ -2,7 +2,6 @@ repeat
     wait()
 until game.Loaded
 game:GetService("RunService"):Set3dRenderingEnabled(false)
-setfpscap(10)
 task.wait(5)
 if game.PlaceId == 5411459567 then
     repeat
@@ -52,11 +51,11 @@ if game.GameId == 578392296 then
         notify("Server Hopping")
         task.wait(1)
         serverHop()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Faisl100/aboody-3/main/main.lua", true))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/RZiln/GayBloxScripts/master/ABA/ServerHop.lua", true))()
     else
         notify("Server Hopping")
         serverHop()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Faisl100/aboody-3/main/main.lua", true))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/RZiln/GayBloxScripts/master/ABA/ServerHop.lua", true))()
     end
 
 end
